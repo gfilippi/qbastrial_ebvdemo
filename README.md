@@ -5,8 +5,6 @@ The following instructions allow you to flash the camera with a prebuilt image (
 
 The final setup is composed by one or more qb-astrial, one PoE ethernet switch and a laptop to decode the video streams. The final setup is isolated from the internet and will run with fixed ip address for both qbastrial and laptop.
 
-![Final Demo setup](docs/qbastrial_setup_01.jpg)
-
 # flash qb-astrial 
 To flash the camera you do NOT need the PoE switch, you need the USB cable from the camera to the pc (ubuntu linux)
 
@@ -71,6 +69,8 @@ Now the setup is completed and we do not need the internet cable anymore, remove
 Open your ubuntu network manager menu and set your laptop address for 10.0.0.2/24 (and "save" the setting)
 
 Detach the ethernet cable from the laptop, wait 5 seconds, reconnect the ethernet cable.
+
+![Final Demo setup](docs/qbastrial_setup_01.jpg)
 
 Now from CLI you should be able to ping the camera using the command
 
