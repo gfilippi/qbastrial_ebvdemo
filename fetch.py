@@ -2,7 +2,6 @@
 
 import subprocess
 import json
-import yaml
 import sys
 import os
 import urllib.request
