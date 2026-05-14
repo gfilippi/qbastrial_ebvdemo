@@ -170,7 +170,7 @@ tar -xvf $OUTPUT
 # -------------------------------
 
 # post install libs
-OUTPUT="astrial-h8_postproc_imx219_20260325_001.tar"
+OUTPUT="astrial-h8_postproc_imx219_20260514_001.tar"
 cd /
 tar -xvf /root/$OUTPUT
 rm /root/$OUTPUT
