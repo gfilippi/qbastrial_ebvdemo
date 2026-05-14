@@ -19,6 +19,7 @@ Insert the dongle first, without attaching the usb cable to the pc
 
 ## pc connection
 Insert the usb-c cable into the dongle and then into the pc.
+
 IMPORTANT you must follow this exact order to avoid ESD damage while programming via usb.
 
 ![PC second](docs/qbastrial_setup_03.jpg)
