@@ -78,7 +78,7 @@ Now from CLI you should be able to ping the camera using the command
 ping 10.0.0.3
 ```
 
-if this is successful ... you are all set!
+if this is successful ... you are all set! now you can carry the demo setup anywhere, you can also add more cameras by changing their ip address.
 
 # Running the demo
 On your laptop you only need two things: one console window and Firefox (or any other browser).
@@ -103,6 +103,14 @@ First select "stop_streaming" and press "switch" button (just in case there is s
 Now select the demo you need and press "switch" button again.
 
 After few seconds you should see the video on your PC.
+
+## changing the ip-address of the camera
+If you need to change the address of the camera itself connect via ssh and then edit (using nano) the file: /etc/systemd/network/20-wired.network
+
+## fan control
+the qbastrial-h8 is NOT fanless, and the speed is controlled by the CPU temperature, so it is normal to see the fan to spin up/down (make sure the fan is actually spinnning at boot) 
+
+The qbastrial-h15 (using ASTRIAL-h15 version) can be used without a fan for normal ambient temperature operation.
 
 # Clean shutdown
 This is a very important step: before closing the demo make sure to select "shutdown_camera" and press the "switch" button. this will guarantee a clean shutdown of the camera itself.
