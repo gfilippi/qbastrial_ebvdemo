@@ -168,7 +168,7 @@ chmod 754 ./*.sh
 ./install.sh
 
 # copy config
-cd /root
+cd /root/etc
 cp ./rc.local /etc/rc.local
 
 cd /root/etc/systemd/network/
