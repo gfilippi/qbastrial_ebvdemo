@@ -83,7 +83,7 @@ if this is successful ... you are all set!
 # Running the demo
 On your laptop you only need two things: one console window and Firefox (or any other browser).
 
-# run the decoder in console
+## run the decoder in console
 in your console you need to run the script "client_gstreamer_astrial-h8.sh" available in this repo.
 Note that you need to install GStreamer to be able to decode the RTP/H.264 video stream from the camera.
 
