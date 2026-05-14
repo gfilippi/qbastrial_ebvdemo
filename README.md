@@ -12,7 +12,7 @@ You have downloaded your astrial image, make sure it is the correct one based on
 If the image is compressed (.wic.zst) the uncompress the image using the "unzst" command from commandline on your ubuntu pc.
 
 Once ready follow these steps in this EXACT order:
-## programming dongle insertion
+## dongle insertion
 Insert the dongle first, without attaching the usb cable to the pc
 
 ![Dongle First](docs/qbastrial_setup_02.jpg)
