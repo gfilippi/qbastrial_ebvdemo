@@ -5,6 +5,7 @@ The following instructions allow you to flash the camera with a prebuilt image (
 
 The final setup is composed by one or more qb-astrial, one PoE ethernet switch and a laptop to decode the video streams. The final setup is isolated from the internet and will run with fixed ip address for both qbastrial and laptop.
 
+[[docs/qbastrial_setup_01.jpg|FINAL demo setup]]
 
 # flash qb-astrial 
 To flash the camera you do NOT need the PoE switch, you need the USB cable from the camera to the pc (ubuntu linux)
