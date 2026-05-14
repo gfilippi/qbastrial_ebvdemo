@@ -150,9 +150,6 @@ rm $OUTPUT
 
 
 # Downloads libs:
-
-1607680 May 14 16:19 astrial-h8_postproc_imx219_20260514_001.tar
-
 cd /root/
 URL="http://www.brainworks.it/astrial/astrial-h8_postproc_imx219_20260514_001.tar"
 OUTPUT="astrial-h8_postproc_imx219_20260514_001.tar"

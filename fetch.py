@@ -63,7 +63,7 @@ def ensure_module(module_name, package_name=None):
             package_name
         ])
 
-        return importlib.import_module(module_name)
+    return importlib.import_module(module_name)
 
 
 # -------------------------------------------------
