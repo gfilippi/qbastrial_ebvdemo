@@ -172,7 +172,7 @@ cd /root/etc
 cp ./rc.local /etc/rc.local
 
 cd /root/etc/systemd/network/
-cp ./20-wired.network /etc/etc/systemd/network
+cp ./20-wired.network /etc/systemd/network
 
 # -------------------------------
 # 3rd-party-install
