@@ -49,7 +49,9 @@ QB-Astrial is a PoE camera so it will turn on when it is connected to the PoE sw
 From your Ubuntu PC open a command line shell (CLI) and use ssh to connect to the camera
 
 ```
-ssh root@astrial-8gb-imx8mp.local
+ssh root@astrial-8gb-imx8mp.local (for the ASTRIAL/8gb version)
+or
+ssh root@astrial-4gb-imx8mp.local (for the ASTRIAL/4gb version)
 ```
 
 Once connected use the following command to fetch the demos and configure the camera for fixed-ip address:
