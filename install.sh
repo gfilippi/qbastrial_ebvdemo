@@ -160,7 +160,7 @@ tar -xvf /root/$OUTPUT
 rm /root/$OUTPUT
 
 # copy fan control
-cd /root/fil_tools/pwm_fan_lkt.sh $TARGET_FOLDER
+cp /root/fil_tools/pwm_fan_lkt.sh $TARGET_FOLDER
 
 # install demo server
 cd $TARGET_FOLDER/demo_webserver/setup
