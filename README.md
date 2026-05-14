@@ -37,7 +37,13 @@ wget https://github.com/nxp-imx/mfgtools/releases/download/uuu_1.5.125/uuu
 chmod +x ./uuu
 ```
 ## disconnect and reboot
-To disconnect the camera please follow the reverse order of operations: **first remove the cable from your pc, then remove the cable from the camera dongle (but leave the dongle inserted).** Last remove the dongle from the camera. Once again this is important for maximum ESD protection.
+To disconnect the camera please follow the reverse order of operations: 
+
+- first remove the cable from your pc
+- then remove the cable from the camera dongle (but leave the dongle inserted)
+- Last remove the dongle from the camera
+
+Once again this is important for maximum ESD protection.
 
 # setup for demo installation
 For the demo installation both the camera and the pc are set for DHCP and you must connect the switch to a router connected to the internet. We will connect to the camera and fetch configuration from there.
