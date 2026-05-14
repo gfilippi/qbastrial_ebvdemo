@@ -80,28 +80,12 @@ fi
 
 
 # Downloads APPS:
-# cd $TARGET_FOLDER
-# cd /root/
-# URL="http://www.brainworks.it/astrial/astrial-h8_apps_imx219_20260325_001.tar"
-# OUTPUT="astrial-h8_apps_imx219_20260325_001.tar"
-# EXPECTED_SIZE=121446400
-# EXPECTED_MD5="47e84ec652f66a1a1aecee775494fa10"
-
-# download_and_verify \
-#     $URL \
-#     $OUTPUT \
-#     $EXPECTED_SIZE \
-#     $EXPECTED_MD5
-
-# tar -xvf $OUTPUT
-# rm $OUTPUT
-
 cd $TARGET_FOLDER
 cd /root/
-URL="http://www.brainworks.it/astrial/astrial-h8_apps_imx219_20260514_001.tar"
-OUTPUT="astrial-h8_apps_imx219_20260514_001.tar"
-EXPECTED_SIZE=1441515520
-EXPECTED_MD5="9ac3cb99fb71837dd538d3128551889d"
+URL="http://www.brainworks.it/astrial/astrial-h8_apps_imx219_20260325_001.tar"
+OUTPUT="astrial-h8_apps_imx219_20260325_001.tar"
+EXPECTED_SIZE=121446400
+EXPECTED_MD5="47e84ec652f66a1a1aecee775494fa10"
 
 download_and_verify \
     $URL \
@@ -111,6 +95,22 @@ download_and_verify \
 
 tar -xvf $OUTPUT
 rm $OUTPUT
+
+# cd $TARGET_FOLDER
+# cd /root/
+# URL="http://www.brainworks.it/astrial/astrial-h8_apps_imx219_20260514_001.tar"
+# OUTPUT="astrial-h8_apps_imx219_20260514_001.tar"
+# EXPECTED_SIZE=1441515520
+# EXPECTED_MD5="9ac3cb99fb71837dd538d3128551889d"
+
+# download_and_verify \
+#     $URL \
+#     $OUTPUT \
+#     $EXPECTED_SIZE \
+#     $EXPECTED_MD5
+
+# tar -xvf $OUTPUT
+# rm $OUTPUT
 
 
 # Downloads TOOLS:
