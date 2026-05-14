@@ -18,7 +18,7 @@ download_and_verify() {
 
     echo "Downloading: $url"
 
-    if ! wget -O "$output" "$url"; then
+    if ! curl -L -k -o "$output" "$url"; then
         echo "ERROR: Download failed"
         exit 1
     fi
