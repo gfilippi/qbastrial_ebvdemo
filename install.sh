@@ -150,11 +150,14 @@ rm $OUTPUT
 
 
 # Downloads libs:
+
+1607680 May 14 16:19 astrial-h8_postproc_imx219_20260514_001.tar
+
 cd /root/
-URL="http://www.brainworks.it/astrial/astrial-h8_postproc_imx219_20260325_001.tar"
-OUTPUT="astrial-h8_postproc_imx219_20260325_001.tar"
-EXPECTED_SIZE=1495040
-EXPECTED_MD5="e1b5e942b08903716a984434c6498d41"
+URL="http://www.brainworks.it/astrial/astrial-h8_postproc_imx219_20260514_001.tar"
+OUTPUT="astrial-h8_postproc_imx219_20260514_001.tar"
+EXPECTED_SIZE=1607680
+EXPECTED_MD5="b5a764b566ef4f36b728380374f78b66"
 
 download_and_verify \
     $URL \
