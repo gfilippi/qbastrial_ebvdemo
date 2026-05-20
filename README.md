@@ -132,8 +132,14 @@ the qbastrial-h8 is NOT fanless, and the speed is controlled by the CPU temperat
 
 The qbastrial-h15 (using ASTRIAL-h15 version) can be used without a fan for normal ambient temperature operation.
 
-# Clean shutdown
+# clean shutdown
 This is a very important step: before closing the demo make sure to select "shutdown_camera" and press the "switch" button. this will guarantee a clean shutdown of the camera itself.
 
+# external connection
+the QB-Astrial camera has an M8 gpio connector for external signals. This connector can be used to attach external devices, for example:
+- strobe light gpio trigger
+- a button
+- any sensor on i2c bus
+- serial port (you will need FT232 for USB-to-Serial)
 
-
+below is the pinout
