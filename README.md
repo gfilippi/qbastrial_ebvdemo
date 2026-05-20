@@ -109,6 +109,10 @@ Note that you need to install GStreamer to be able to decode the RTP/H.264 video
 
 launch the script in console and let it run (waiting for incoming data...)
 
+```
+./client_gstreamer_astrial-h8.sh [YOUR_CAMERA_IP_ADDR]
+```
+
 ## open the camera control page
 to control which demo you want to start open Firefox and point the page to (make sure it is HTTP and not HTTPs)
 
