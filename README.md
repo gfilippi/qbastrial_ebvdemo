@@ -142,4 +142,8 @@ the QB-Astrial camera has an M8 gpio connector for external signals. This connec
 - any sensor on i2c bus
 - serial port (you will need FT232 for USB-to-Serial)
 
-below is the pinout
+below is the pinout:
+
+<img src="./docs/qbastrial_M8_1.jpg" width="200" /><img src="./docs/qbastrial_M8_2.jpg" width="300" />
+
+IMPORTANT: if you want to connect a USB-to-Serial cable with FT232 make sure your voltage level is set to 3.3v, the pins exposed on the M8 are NOT tolerant to 5V and you will damage the Astrial board if you do not pay attention to your serial port converter level.
