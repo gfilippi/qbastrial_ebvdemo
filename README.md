@@ -5,6 +5,17 @@ The following instructions allow you to flash the camera with a prebuilt image (
 
 The final setup is composed by one or more qb-astrial, one PoE ethernet switch and a laptop to decode the video streams. The final setup is isolated from the internet and will run with fixed ip address for both qbastrial and laptop.
 
+# camera packaging
+The camera package must contain three things
+- the camera
+- the gpio extension cable (for the M8 connector)
+- the "special" programming dongle needed to flash the camera.
+
+the programming dongle is usally provided inside a plastic ESD back, make sure not to lose this item, there is no way to program the camera without it.
+
+<img src="./docs/qbastrial_content_1.jpg" width="300" />
+<img src="./docs/qbastrial_content_2.jpg" width="300" />
+
 # flash qb-astrial 
 To flash the camera you do NOT need the PoE switch, you need the USB cable from the camera to the pc (ubuntu linux)
 
