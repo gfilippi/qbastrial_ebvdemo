@@ -147,3 +147,5 @@ below is the pinout:
 <img src="./docs/qbastrial_M8_1.jpg" width="200" /><img src="./docs/qbastrial_M8_2.jpg" width="300" />
 
 IMPORTANT: if you want to connect a USB-to-Serial cable with FT232 make sure your voltage level is set to 3.3v, the pins exposed on the M8 are NOT tolerant to 5V and you will damage the Astrial board if you do not pay attention to your serial port converter level.
+
+Also the 5V output is provided for reference and low-power device (like i2c sensors, in the range of 300 mA total power consumption). Do not use this 5V for high power device like light strobes or external motors. If you need power on your external device make sure to provide external power too. If instead you sensor needs 3.3v you can use an external DC/DC or LDO converter (like the usual LM1117-3.3) to avoid external power and be 3.3v tolerant at the same time.
